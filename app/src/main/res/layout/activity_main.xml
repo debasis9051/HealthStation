@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="224dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Health Station"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="72dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/physical"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="219dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="316dp"
+        android:background="@drawable/button1"
+        android:hapticFeedbackEnabled="true"
+        android:text="PHYSICAL HEALTH"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mental"
+        android:layout_width="216dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="183dp"
+        android:background="@drawable/button2"
+        android:hapticFeedbackEnabled="true"
+        android:text="MENTAL HEALTH"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/physical"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/corona"
+        android:layout_width="213dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="67dp"
+        android:background="@drawable/button3"
+        android:hapticFeedbackEnabled="true"
+        android:text="COVID-19 LIVE TRACKER"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mental" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/button4"
+        android:hapticFeedbackEnabled="true"
+        android:text="ABOUT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/corona"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

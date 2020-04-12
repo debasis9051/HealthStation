@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#039BE5</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="popular">#1BCA9B</color>
+    <color name="recipe">#DFAF2B</color>
+    <color name="activity2">#99AAAB</color>
+    <color name="act1">#e80054</color>
+    <color name="corona">#4EF786</color>
+    <color name="mental">#EAF0F1</color>
+    <color name="about">#535C68</color>
+
+
+
+
+</resources>
